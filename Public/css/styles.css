@@ -1,0 +1,697 @@
+/* natural box model */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* UTILITIES */
+
+/* hides an element on screen, but not from screen readers */
+/*.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}*/
+
+/* no break */
+.nobr {
+  white-space: nowrap;
+}
+
+/* START STYLES HERE */
+body {
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+  justify-content:space-around;
+}
+
+ /*Typography*/
+h1{
+  font-family: 'Baskerville', serif;
+  font-size: 75px;
+  letter-spacing: 18px;
+}
+h2{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 40px;
+  letter-spacing: 6px;
+  font-weight: lighter;
+  margin-top: 3px;
+}
+h3 {
+  font-family: 'Baskerville', serif;
+  font-size: 45px;
+  letter-spacing: 6px;
+  color: rgb(210,226,223);
+}
+h4 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 33px;
+  letter-spacing: 13px;
+  color: rgb(59, 59, 59);
+  margin-top: 0px;
+}
+h5 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 28px;
+  letter-spacing: 4px;
+  color: rgb(47,101,104);
+}
+h6 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 35px;
+  letter-spacing: 8px;
+  padding-top: 18px;
+  margin-top: 36px;
+  color: white;
+}
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 1px;
+  font-size: 28px;
+  color: rgb(22,41,54);
+  line-height: 40px;
+}
+/*-----------------home page--------------------------------*/
+.header {
+  background-color: lightgray;
+  top: 0px;
+  padding: 20px;
+  color: rgb(22,41,54);
+  text-align: center;
+}
+.content {
+  margin-top: 20px;
+  margin-right: 9em;
+  text-align: center;
+  width: 650px;
+}
+.pattern {
+  width: 70%;
+  margin-top: 80px;
+  margin-left: 80px;
+  margin-bottom: 4em;
+}
+.box1 {
+  color: white;
+  height: 5em;
+  width: 16em;
+  background-color: rgb(82,151,172);
+  margin: auto;
+  margin-bottom: 2em;
+}
+.box1 a:link {
+  color: white;
+  text-decoration: none;
+} 
+.box1 a:hover {
+  color: rgb(229,126,94);
+}
+.box1 a:visited {
+  color: lightgray;
+}
+/*----------------------------------Resume----------------------------------*/
+.pdf {
+  width: 50%;
+  margin-top: 8em;
+  margin-left: 8em;
+  border: 20px ridge rgb(50, 98, 119);
+  margin-bottom: 8em;
+}
+#resume {
+  display: flex;
+  flex-flow: row;
+}
+.download {
+  margin: auto;
+  text-align: center;
+}
+.download a:link {
+  color: rgb(22,41,54);
+  text-decoration: none;
+}
+.download a:hover {
+  color: rgb(50, 98, 119);
+}
+/*-------------------------------------Work-----------------------------------*/
+
+.book {
+  background-color: lightgrey;
+
+}
+.chapter {
+  text-align: center;
+}
+.p1 {
+  width: 30%;
+  margin: 0 2em 2em 2em;
+}
+.p2 {
+  width: 35%;
+  margin: 0 2em 2em 2em;
+}
+.p3 {
+  width: 25.7%;
+  margin: 0 2em 2em 2em;
+}
+.p4 {
+  width: 35%;
+  margin: 0 2em 2em 2em;
+}
+.p5 {
+  width: 24%;
+  margin: 0 2em 2em 2em;
+}
+.p6 {
+  width: 22%;
+  margin: 0 2em 2em 2em;
+}
+.p7 {
+  width: 45%;
+  margin: 0 2em 2em 2em;
+}
+.p8 {
+  width: 40%;
+  margin: 0 2em 2em 2em;
+}
+/*----------------------------------p1-8-----------------------------------------*/
+.adobe{
+  background-image: url('/images/adobe1-02.jpg');
+  background-size: contain;                    
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: lightgray;
+ }
+
+ .adobe2{
+  background-image: url('/images/adobe-03.jpg');
+  background-size: contain;                    
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: lightgray;
+ }
+ .adobe3{
+  background-image: url('/images/adobe-04.jpg');
+  background-size: contain;                    
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: lightgray;
+ }
+ .adobe4{
+  background-image: url('/images/adobe-05.jpg');
+  background-size: contain;                    
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: lightgray;
+ }
+
+ .adobe5{
+  background-image: url('/images/adobe-06.jpg');
+  background-size: cover;                    
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: lightgray;
+ }
+
+ .adobe6{
+  background-image: url('/images/adobe-07.jpg');
+  background-size: cover;                    
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: lightgray;
+ }
+
+ .adobe7{
+  background-image: url('/images/adobe-08.jpg');
+  background-size: contain;                    
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: lightgray;
+ }
+
+ .adobe8{
+  background-image: url('/images/adobe-09.jpg');
+  background-size: contain;                    
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: lightgray;
+ }
+
+ .box2 {
+  color: white;
+  height: 5em;
+  width: 16em;
+  background-color: rgb(82,151,172);
+  text-align: center;
+  margin: auto;
+  margin-top: 158em;
+  margin-bottom: 4em;
+}
+
+.box2 a:link {
+  color: white;
+  text-decoration: none;
+} 
+.box2  a:hover {
+  color: rgb(229,126,94);
+}
+.box2  a:visited {
+  color: lightgray;
+}
+
+
+.gif1 {
+  display: block;
+  margin: auto;
+  margin-top: 90em;
+  width: 55%;
+}
+
+.box3 {
+  color: white;
+  height: 5em;
+  width: 16em;
+  background-color: rgb(82,151,172);
+  text-align: center;
+  margin: auto;
+  margin-top: 100em;
+  margin-bottom: 4em;
+}
+
+.box3 a:link {
+  color: white;
+  text-decoration: none;
+} 
+.box3  a:hover {
+  color: rgb(229,126,94);
+}
+.box3  a:visited {
+  color: lightgray;
+}
+
+.box4 {
+  color: white;
+  height: 5em;
+  width: 16em;
+  background-color: rgb(82,151,172);
+  text-align: center;
+  margin: auto;
+  margin-top: 120em;
+  margin-bottom: 4em;
+}
+
+.box4 a:link {
+  color: white;
+  text-decoration: none;
+} 
+.box4  a:hover {
+  color: rgb(229,126,94);
+}
+.box4  a:visited {
+  color: lightgray;
+}
+
+.box5 {
+  color: white;
+  height: 5em;
+  width: 16em;
+  background-color: rgb(82,151,172);
+  text-align: center;
+  margin: auto;
+  margin-top: 165em;
+  margin-bottom: 4em;
+}
+
+.box5 a:link {
+  color: white;
+  text-decoration: none;
+} 
+.box5  a:hover {
+  color: rgb(229,126,94);
+}
+.box5  a:visited {
+  color: lightgray;
+}
+
+.box6 {
+  color: white;
+  height: 5em;
+  width: 16em;
+  background-color: rgb(82,151,172);
+  text-align: center;
+  margin: auto;
+  margin-top: 220em;
+  margin-bottom: 4em;
+}
+
+.box6 a:link {
+  color: white;
+  text-decoration: none;
+} 
+.box6  a:hover {
+  color: rgb(229,126,94);
+}
+.box6  a:visited {
+  color: lightgray;
+}
+
+.box7 {
+  color: white;
+  height: 5em;
+  width: 16em;
+  background-color: rgb(82,151,172);
+  text-align: center;
+  margin: auto;
+  margin-top: 120em;
+  margin-bottom: 4em;
+}
+
+.box7 a:link {
+  color: white;
+  text-decoration: none;
+} 
+.box7  a:hover {
+  color: rgb(229,126,94);
+}
+.box7  a:visited {
+  color: lightgray;
+}
+
+.box8 {
+  color: white;
+  height: 5em;
+  width: 16em;
+  background-color: rgb(82,151,172);
+  text-align: center;
+  margin: auto;
+  margin-top: 130em;
+  margin-bottom: 10em;
+}
+
+.box8 a:link {
+  color: white;
+  text-decoration: none;
+} 
+.box8  a:hover {
+  color: rgb(229,126,94);
+}
+.box8  a:visited {
+  color: lightgray;
+}
+/*---------------------------------------Contact Info------------------------------------*/
+.contact {
+  text-align: center;
+}
+
+.blocks {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.email h5 {
+  color: white;
+}
+.email img {
+  width: 25%;
+  margin-top: 2em;
+}
+.email h5 {
+  color: rgb(224,217,208);
+}
+.email {
+  background-color: rgb(50, 98, 119);
+  width: 35em;
+  height: 20em;
+  margin: 5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/*----------------------------------About Me------------------------------------*/
+.bin {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+.about {
+  margin-top: 20px;
+  margin-right: 9em;
+  width: 60%;
+  line-height: 40px;
+  text-align: center;
+}
+.me2 {
+  width: 70%;
+  margin-top: 80px;
+  margin-left: 80px;
+  margin-bottom: 4em;
+}
+
+
+/* ---------------------Nav Stuff---------------------------*/
+
+nav html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* General */
+nav body {
+margin: 0;
+background-color: lightslategray;
+}
+
+nav h1 {
+  font-size: 24px;
+  font-weight: normal;
+  padding: 6.0em 0 1.0em;
+  text-align: center;
+}
+
+/* Navigation */
+.openbtn {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  color: rgb(22,41,54);
+  font-family: 'Baskerville', serif;
+}
+.openbtn:hover {
+  color: grey;
+}
+.menu-text {
+  font-size: 25px;
+  color: rgb(22,41,54);
+  font-family: 'Baskerville', serif;
+  display: block;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+/* The side navigation menu */
+.all-over-bkg {
+  display: none;
+}
+
+.is-visible {
+  background-color: rgba(0,0,0,0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 9999;
+  display: block;
+}
+
+#mySidenav {
+  z-index: 10000;
+}
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  background-color: rgb(210,226,223);  
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 8px;
+  color: rgb(22,41,54);
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: rgb(50, 98, 119);
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+main {
+  transition: margin-left .5s;
+  padding: 0;
+}
+
+/* Media queries */
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES FROM SMALLEST TO LARGEST = MOBILE FIRST */
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  h1 {
+    font-size: 65px;
+    letter-spacing: 14px;
+   }
+   h2 {
+     font-size: 35px;
+   }
+   .me {
+    width: 55%;
+  }
+  .me2 {
+    width: 40%;
+  }
+  .gallery img {
+    width: 48%;
+    margin: 3em;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 70px;
+    letter-spacing: 16px;
+   }
+   h2 {
+    font-size: 40px;
+  }
+   .me {
+    width: 65%;
+  }
+  .me2 {
+    width: 50%;
+  }
+  .gallery img {
+    width: 53%;
+    margin: 3em;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 75px;
+    letter-spacing: 18px;
+   }
+   h2 {
+    font-size: 45px;
+  }
+   .me {
+    width: 75%;
+  }
+  .me2 {
+    width: 55%;
+  }
+  .gallery img {
+    width: 58%;
+    margin: 3em;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+ h1 {
+  font-size: 80px;
+  letter-spacing: 20px;
+ }
+ h2 {
+  font-size: 45px;
+}
+ .me {
+   width: 80%;
+ }
+ .me2 {
+  width: 65%;
+}
+.gallery img {
+  width: 63%;
+  margin: 3em;
+}
+}
+
+
+/* MEDIA QUERIES FROM LARGEST TO SMALLEST */
+/* Extra small devices (portrait phones, less than 576px) */
+/* @media (max-width: 575.98px) {
+
+} */
+
+/* Small devices (landscape phones, less than 768px) */
+/* @media (max-width: 767.98px) {
+
+} */
+
+/* Medium devices (tablets, less than 992px) */
+/* @media (max-width: 991.98px) {
+
+} */
+
+/* Large devices (desktops, less than 1200px) */
+/* @media (max-width: 1199.98px) {
+
+} */
+
+/* Extra large devices (large desktops)
+No media query since the extra-large breakpoint has no upper bound on its width */
